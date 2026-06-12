@@ -1,0 +1,7 @@
+defaultNamespace: monitoring
+helm:
+  repo: oci://ghcr.io/grafana-community/helm-charts/loki
+  version: 17.3.2
+  releaseName: loki
+  valuesFiles:
+    - ./values.yaml
